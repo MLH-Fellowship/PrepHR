@@ -13,7 +13,7 @@ Students and professionals can schedule automated HR interviews and get their pe
 
 ## Live Demo
 
-[//]: #[Live Demo Link](https://livedemo.com)
+[//]: #![LiveDemoLink](https://livedemo.com)
 
 
 ## Getting Started
