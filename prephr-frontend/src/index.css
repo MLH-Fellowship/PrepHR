@@ -20,6 +20,10 @@ a:hover {
     padding: 50px 0px 50px 0px;
 }
 
+.very-small-separation {
+    padding: 20px 0px 20px 0px;
+}
+
 .heading-text {
     font-family: Ubuntu;
     font-style: normal;
