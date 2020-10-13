@@ -1,34 +1,47 @@
 [//]: #![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# PrepHR 🖥️👨‍💼
-### Where preparation meets expectations.
+<p align="center">
+<img src="https://github.com/MLH-Fellowship/PrepHR/blob/main/prephr-frontend/src/assets/icons/logo.svg" alt="logo" ></p>
+<p align="center">
+<a href="https://reactjs.org/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react" width="70" height="70"/> </a> <a href="https://www.djangoproject.com/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/django/django-original.svg" alt="django" width="70" height="70"/> </a> <a href="https://www.mongodb.com/" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="70" height="70"/> </a></p> 
+<h3 align="center"> Where preparation meets expectations.</h3>
+<p align="center">
+<img src="https://github.com/MLH-Fellowship/PrepHR/blob/main/prephr-frontend/public/Screenshot%20from%202020-10-14%2001-01-33.png" alt="screenshot"> </p>
+<p>
+<img src="https://img.shields.io/github/issues/MLH-Fellowship/PrepHR">
+<img src="https://img.shields.io/github/forks/MLH-Fellowship/PrepHR">
+<img src="https://img.shields.io/github/stars/MLH-Fellowship/PrepHR">
+<img src="https://img.shields.io/github/license/MLH-Fellowship/PrepHR">
+<img src="https://img.shields.io/github/contributors/MLH-Fellowship/PrepHR"></p>
 
-## Breif Introduction 📝
-An open source initiative to help students prepare for HR interviews.
+## What is PrepHR? 📝
+An open source project to help students prepare for virtual pre-recorded interview.
 
-## Problem Statement 🤔
-<b>Ever felt clueless before an HR interview? We'll we are here to address your problem.</b>
+## Why use PrepHR? 🤔
+<b>Ever felt unprepared for talking to a camera? Do you feel weird while recording a HireVue video? Ever felt clueless before a behavioural interview? PrepHR is here to help.</b>
 * Many companies have online HR interviews for the candidates in a way that needs the candidate to send recorded videos as answers to questions provided to them in a stipulated duration. Others involve presence of an interviewer.
-* In either case, the result of the interview is concluded based on various known parameters, such as posture, confidence, expression etc.
+* These platforms consider various parameters such as eye-contact, posture, confidence, expressions etc.
 * Candidates have a hard time preparing for such interviews, and in many cases fail to understand where exactly they lack.
+* It also feels unnatural to talk to a camera and candidates may lack expressions as a result.
 
-## Solution 💡
+## How to use PrepHR 💡
 #### PrepHR: A fully automated and feedback based website for HR Interview preparation 
 
-* Practice with automated HR interviews and get your performance rated on different criteria such as confidence, posture and eye contact,etc.
+* Practice with automated behavioural interviews and get your performance rated on different criterias such as confidence, posture, eye contact,etc.
 * Schedule infinite interviews, and track your progress on your peronal dashboard.
 * Answer a variety of questions from several categories and nail your next HR interview
-* Provide (optional) feedback about your experience for us to bring improvements
+* (optional) Provide feedback about your experience for us to bring improvements
 
 ## USP 🎉
-This will be the first *Open Source* project of it's kind. It'll also be easily accessible to all intersted candidates world-wide without any constraints.
+This will be the first *Open Source* project of it's kind. It'll also be easily accessible to all interested candidates world-wide without any constraints.
+In the era of Covid-19 where million of people are in desparate need of jobs, this simple solution aims to help candidates identify their gaps and work on those.
 
 [//]: #![screenshot](./app_screenshot.png)
 
 ## Tech Stack 🛠
 
 - ReactJS
-- Django, MongoDB, Tensorflow
+- Django, MongoDB
 
 <!--## Live Demo
 We'll make a setup_instructions.md later on!
@@ -40,7 +53,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-### Install
+### Installation
 
 ### Deployment
 -->
