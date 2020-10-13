@@ -9,7 +9,7 @@ const AfterLoginPage = () => {
     return (
         <div>
             <NavBar />
-            <BodyHeader />
+            <BodyHeader subtitle='Welcome! Let’s start with your HR interview now.' subtext={0} />
             <Container fluid>
                 <div className='small-separation'></div>
                 <Row style={{ marginLeft: '50px' }}>
