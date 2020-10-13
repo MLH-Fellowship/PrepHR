@@ -1,0 +1,40 @@
+.bar-group .name-label {
+    text-anchor: start;
+    position: absolute;
+    font-family: Montserrat-medium;
+    text-transform: capitalize;
+    fill: #282C34;
+}
+
+.bar-group .value-label {
+    text-anchor: end;
+    fill: #FFFFFF;
+    font-weight: 900;
+}
+
+.container .bar-group {
+    transition: opacity 0.3s;
+    position: absolute;
+}
+
+
+/* Fade bars when the chart is hovered */
+
+.container:hover .bar-group {
+    opacity: 0.7;
+}
+
+
+/* But don't fade the hovered bar... */
+
+.container .bar-group:hover {
+    opacity: 1;
+}
+
+.container .bar-group:hover .name-label {
+    font-weight: 400;
+}
+
+.container .bar-group:hover .value-label {
+    font-size: 1.2em;
+}

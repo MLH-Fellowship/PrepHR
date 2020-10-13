@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-ro
 import * as allPaths from './constants/paths';
 
 //Pages
-import NotFoundPage from './pages/404';
+import NotFoundPage from './pages/404/404';
 import BeforeLoginPage from './pages/beforeLogin';
 import AfterLoginPage from './pages/afterLogin';
 import QuestionsPage from './pages/questions';
