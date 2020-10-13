@@ -6,3 +6,9 @@
     position: absolute;
     padding: 20px 0px 20px 0px;
 }
+
+.footer-container a,
+.footer-container a:hover {
+    padding: 0px;
+    background: #20232A;
+}

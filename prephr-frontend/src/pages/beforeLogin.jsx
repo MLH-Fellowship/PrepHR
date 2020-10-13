@@ -5,11 +5,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 import interview1 from '../assets/images/interview1.png'
 import interview2 from '../assets/images/interview2.png'
 import Footer from "../components/Footer/footer";
+import * as allPaths from '../constants/paths';
+import { Link } from 'react-router-dom';
 
 const BeforeLoginPage = () => {
     return (
         <div>
-            <NavBar />
+            <NavBar number={1} />
             <BodyHeader subtitle='Where Preparation Meets Expectations' subtext={1} />
             <Container fluid>
                 <div className='small-separation'></div>
@@ -22,9 +24,9 @@ const BeforeLoginPage = () => {
                                 This website uses facial and voice recognition features, to asses the various parameters such as confidence, expression, clarity, posture and understanding.
                             </h5>
                             <br />
-                            <a href="" className='button-global-style'>
+                            <Link to={allPaths._afterLoginPagePath} style={{ padding: '0px' }}><a href="" className='button-global-style'>
                                 Begin Practising
-                            </a>
+                            </a></Link>
                         </div>
                     </Col>
                     <Col md={6} sm={12}>
@@ -45,7 +47,7 @@ const BeforeLoginPage = () => {
                                 If you’re a developer, and wish to contribute, you are welcome!
                             </h5>
                             <br />
-                            <a href="" className='button-global-style'>
+                            <a href="https://github.com/MLH-Fellowship/PrepHR" className='button-global-style'>
                                 Contribute to PrepHR
                             </a>
                         </div>

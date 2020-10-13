@@ -4,14 +4,15 @@ import NavBar from '../components/NavBar/navbar';
 import Footer from '../components/Footer/footer';
 import { Container, Row, Col } from 'react-bootstrap';
 import goodjob from '../assets/images/goodjob.png'
-
+import * as allPaths from '../constants/paths';
+import { Link } from 'react-router-dom';
 
 
 const ResultsPage = () => {
 
     return (
         <div>
-            <NavBar />
+            <NavBar number={0} />
             <Container>
                 <div className='small-separation'></div>
                 <Row>
@@ -26,7 +27,7 @@ const ResultsPage = () => {
                 </Row>
                 <div className='small-separation'></div>
                 <Row>
-                    <a href="" className='button-global-style'>Save Result and Return Home</a>
+                    <Link to={allPaths._afterLoginPagePath} style={{ padding: '0px' }}><a href="" className='button-global-style'>Save Result and Return Home</a></Link>
                 </Row>
             </Container>
             <div className='very-small-separation'></div>
