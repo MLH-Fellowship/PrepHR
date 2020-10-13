@@ -3,6 +3,8 @@ import Webcam from 'react-webcam';
 import { Container, Col, Row } from 'react-bootstrap';
 import Footer from '../components/Footer/footer';
 import NavBar from "../components/NavBar/navbar";
+import * as allPaths from '../constants/paths';
+import { Link } from 'react-router-dom';
 
 const QuestionsPage = () => {
     const webcamRef = React.useRef(null);
@@ -55,7 +57,7 @@ const QuestionsPage = () => {
 
     return (
         <>
-            <NavBar />
+            <NavBar number={0} />
             <Container>
                 <Row>
                     <Col>
@@ -86,7 +88,7 @@ const QuestionsPage = () => {
                     </Col>
                     <Col>
                         {recordedChunks.length > 0 && (
-                            <button className='button-global-style col'>Submit</button>
+                            <Link to={allPaths._resultsLoginPagePath} style={{ padding: '0px' }}><button className='button-global-style col'>Submit</button></Link>
                         )}
                     </Col>
 

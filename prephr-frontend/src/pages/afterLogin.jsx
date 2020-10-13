@@ -4,11 +4,13 @@ import NavBar from "../components/NavBar/navbar";
 import { Container, Row, Col } from 'react-bootstrap';
 import interview3 from '../assets/images/interview3.png'
 import Footer from "../components/Footer/footer";
+import * as allPaths from '../constants/paths';
+import { Link } from 'react-router-dom';
 
 const AfterLoginPage = () => {
     return (
         <div>
-            <NavBar />
+            <NavBar number={0} />
             <BodyHeader subtitle='Welcome! Let’s start with your HR interview now.' subtext={0} />
             <Container fluid>
                 <div className='small-separation'></div>
@@ -39,9 +41,9 @@ const AfterLoginPage = () => {
                             </h5>
                             <br />
                             <br />
-                            <a href="" className='button-global-style'>
+                            <Link to={allPaths._questionsPagePath} style={{ padding: '0px' }}><a href="" className='button-global-style'>
                                 Start Your HR Interview
-                            </a>
+                            </a></Link>
                         </div>
                     </Col>
                     <Col md={6} sm={12}>

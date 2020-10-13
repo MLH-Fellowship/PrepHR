@@ -47,6 +47,10 @@ a {
     padding: 10px 30px;
 }
 
+.nav-right-container a {
+    padding: 10px 20px;
+}
+
 a:hover {
     background-color: #282C34;
     text-decoration: none;

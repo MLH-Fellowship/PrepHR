@@ -10,7 +10,7 @@ import PerformanceCards from "../components/Performace Cards/performacecards";
 const DashboardPage = () => {
     return (
         <div>
-            <NavBar />
+            <NavBar number={0} />
             <BodyHeader subtitle="Ridham's Dashboard" subtext={0} />
             <Container>
                 <div className='very-small-separation'></div>
