@@ -10,7 +10,7 @@ const BeforeLoginPage = () => {
     return (
         <div>
             <NavBar />
-            <BodyHeader />
+            <BodyHeader subtitle='Where Preparation Meets Expectations' subtext={1} />
             <Container fluid>
                 <div className='small-separation'></div>
                 <Row>
@@ -54,7 +54,7 @@ const BeforeLoginPage = () => {
                 <div className='small-separation'></div>
             </Container>
             <Footer />
-        </div>
+        </div >
     );
 }
 export default BeforeLoginPage;
