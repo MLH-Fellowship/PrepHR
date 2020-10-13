@@ -2,7 +2,7 @@ import React from "react";
 import BodyHeader from "../components/BodyHeader/bodyheader";
 import NavBar from "../components/NavBar/navbar";
 import { Container, Row, Col } from 'react-bootstrap';
-import interview2 from '../assets/images/interview2.png'
+import interview3 from '../assets/images/interview3.png'
 import Footer from "../components/Footer/footer";
 
 const AfterLoginPage = () => {
@@ -12,7 +12,7 @@ const AfterLoginPage = () => {
             <BodyHeader />
             <Container fluid>
                 <div className='small-separation'></div>
-                <Row>
+                <Row style={{ marginLeft: '50px' }}>
                     <Col md={6} sm={12} style={{ position: 'relative' }}>
                         <div style={{ position: 'relative' }} className='centerxy'>
                             <div className='heading-text'>Starting your HR Interview...</div>
@@ -38,13 +38,14 @@ const AfterLoginPage = () => {
                                 We’re excited to have you onboard. Let’s get started!
                             </h5>
                             <br />
+                            <br />
                             <a href="" className='button-global-style'>
                                 Start Your HR Interview
                             </a>
                         </div>
                     </Col>
                     <Col md={6} sm={12}>
-                        <img src={interview2} />
+                        <img src={interview3} />
                     </Col>
                 </Row>
                 <div className='small-separation'></div>
