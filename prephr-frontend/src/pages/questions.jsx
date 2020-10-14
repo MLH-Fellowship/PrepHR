@@ -55,6 +55,40 @@ const QuestionsPage = () => {
         }
     }, [recordedChunks]);
 
+    const handleSubmit = React.useCallback(() => {
+        if (recordedChunks.length) {
+
+            let blob = new Blob(recordedChunks, {
+                type: "video/webm"
+            });
+            let url = URL.createObjectURL(blob);
+            let a = document.createElement("a");
+            document.body.appendChild(a);
+            a.style = "display: none";
+            a.href = url;
+            a.download = "react-webcam-stream-capture.webm";
+            console.log(a);
+
+            let _email = 'satyapra@iitg.ac.in';
+            let Url = 'www.abcd.com/api/user/uploadUserVideo';
+
+
+            let formData = new FormData();
+            formData.append('file', blob);
+            formData.append('email', _email);
+            fetch(Url, {
+                mode: 'no-cors',
+                method: 'POST',
+                body: formData
+            }).then(function (res) {
+                if (res.ok) {
+                    console(res.body);
+                    // redirect to result page..
+                }
+            });
+        }
+    }, [recordedChunks]);
+
     return (
         <>
             <NavBar number={0} />
@@ -88,7 +122,7 @@ const QuestionsPage = () => {
                     </Col>
                     <Col>
                         {recordedChunks.length > 0 && (
-                            <Link to={allPaths._resultsLoginPagePath} style={{ padding: '0px' }}><button className='button-global-style col'>Submit</button></Link>
+                            <button onClick={handleSubmit} className='button-global-style col'>Submit</button>
                         )}
                     </Col>
 

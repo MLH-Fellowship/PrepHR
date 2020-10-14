@@ -10,14 +10,17 @@ import { Link } from 'react-router-dom';
 
 const BeforeLoginPage = () => {
     return (
-        <div>
+        <>
             <NavBar number={1} />
             <BodyHeader subtitle='Where Preparation Meets Expectations' subtext={1} />
             <Container fluid>
                 <div className='small-separation'></div>
-                <Row>
-                    <Col md={6} sm={12} style={{ position: 'relative' }}>
-                        <div style={{ position: 'absolute' }} className='centerxy'>
+                <Row style={{ margin: '20px' }}>
+                    <Col md={6} sm={12}>
+                        <img src={interview1} className='image-size' />
+                    </Col>
+                    <Col md={6} sm={12}>
+                        <div style={{ position: 'absolute' }}>
                             <div className='heading-text'>Prepare for HR Interviews</div>
                             <h5>
                                 Prepare before hand and have a proper idea of your strengths and weaknesses.
@@ -29,17 +32,15 @@ const BeforeLoginPage = () => {
                             </a></Link>
                         </div>
                     </Col>
-                    <Col md={6} sm={12}>
-                        <img src={interview1} />
-                    </Col>
                 </Row>
                 <div className='small-separation'></div>
-                <Row>
+                <div className='small-separation'></div>
+                <Row style={{ margin: '20px' }}>
                     <Col md={6} sm={12}>
-                        <img src={interview2} />
+                        <img src={interview2} className='image-size' />
                     </Col>
-                    <Col md={6} sm={12} style={{ position: 'relative' }}>
-                        <div style={{ position: 'absolute' }} className='centerxy'>
+                    <Col md={6} sm={12}>
+                        <div style={{ position: 'absolute' }}>
                             <div className='heading-text'>It’s OpenSource and free</div>
                             <h5>
                                 Most of our features are free.
@@ -55,8 +56,8 @@ const BeforeLoginPage = () => {
                 </Row>
                 <div className='small-separation'></div>
             </Container>
-            <Footer />
-        </div >
+            {/* <Footer /> */}
+        </>
     );
 }
 export default BeforeLoginPage;
