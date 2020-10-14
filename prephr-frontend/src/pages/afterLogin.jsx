@@ -51,7 +51,7 @@ const AfterLoginPage = () => {
                         <img src={interview3} className='image-size' />
                     </Col>
                 </Row>
-                <div className='small-separation'></div>
+                <div className='very-small-separation'></div>
             </Container>
             <Footer />
         </div>

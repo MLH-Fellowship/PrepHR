@@ -12,3 +12,10 @@
     padding: 0px;
     background: #20232A;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer-container {
+        height: 0;
+        width: 0;
+    }
+}
