@@ -1,25 +1,30 @@
-.nav-container {
-    background: #20232A;
-}
-
-.nav-element {
-    color: #FFFFFF;
-    padding: 20px 30px;
-}
-
-a {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 29px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 10px 30px;
-}
-
-a:hover {
-    background-color: #282C34;
-    text-decoration: none;
-    color: #32C766;
-}
+    .nav-container {
+        background: #20232A;
+    }
+    
+    .nav-element {
+        color: #FFFFFF;
+        padding: 20px 30px;
+    }
+    
+    a {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 10px 30px;
+    }
+    
+    a:hover {
+        background-color: #282C34;
+        text-decoration: none;
+        color: #32C766;
+    }
+    
+    @media only screen and (max-width: 1024px) {
+        a {
+            font-size: 12px;
+        }
+    }
