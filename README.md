@@ -46,6 +46,37 @@ In the era of Covid-19 where million of people are in desparate need of jobs, th
 
 [//]: #![screenshot](./app_screenshot.png)
 
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing
+purposes.
+
+### Prerequisites
+
+* Node and Node Pakcage manager
+
+You need `node` and `npm` installed on your system to be able to run and build this project.
+
+### Installation
+
+In order to install and run this project follow the below steps
+
+* Clone this project
+* Run following command on terminal/cmd/shell in the project folder
+
+```bash
+cd prephr-frontend
+npm install
+```
+### Run project in production mode
+
+Generate the dist files and then start server at port 3000
+
+```bash
+  npm run build
+  npm start
+```
+
 ## Tech Stack 🛠
 
 - [ReactJS](https://reactjs.org/)
