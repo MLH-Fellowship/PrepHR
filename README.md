@@ -77,6 +77,8 @@ Generate the dist files and then start server at port 3000
   npm start
 ```
 
+For backend instructions, head to [PrepHR Backend Readme](/prephr-backend/README.md).
+
 ## Tech Stack 🛠
 
 - [ReactJS](https://reactjs.org/)
@@ -129,6 +131,7 @@ All kinds of contributions, issues, and feature requests are welcome!
 Give it a *star* if you like this project!
 
 ## Acknowledgments 🙏🏻
+* [Antoine Lamé](https://github.com/antoinelame) for making this amazing [Gaze Tracking Repository](https://github.com/antoinelame/GazeTracking).
 * [Major League Hacking](https://mlh.io/) for giving us this opportunity.
 
 ## License 🗒️
