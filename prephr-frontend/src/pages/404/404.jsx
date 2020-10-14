@@ -1,6 +1,8 @@
 import React from "react";
 import './404.css';
-import _404 from '../../assets/icons/_404.svg'
+import _404 from '../../assets/icons/_404.svg';
+import * as allPaths from '../../constants/paths';
+import { Link } from 'react-router-dom';
 
 const NotFoundPage = () => {
     return (
@@ -16,7 +18,7 @@ const NotFoundPage = () => {
                     How you got here is a mystery. But you can click the button below
                     to go back to the homepage.
                     </p>
-                    <a class="btn green" href="">HOME</a>
+                    <Link to={allPaths._afterLoginPagePath} style={{ padding: '0px' }}><a class="btn green" href="">HOME</a></Link>
                 </div>
             </div>
         </div>
