@@ -14,7 +14,7 @@ const AfterLoginPage = () => {
             <BodyHeader subtitle='Welcome! Let’s start with your HR interview now.' subtext={0} />
             <Container fluid>
                 <div className='small-separation'></div>
-                <Row style={{ marginLeft: '50px' }}>
+                <Row style={{ margin: '20px' }}>
                     <Col md={6} sm={12} style={{ position: 'relative' }}>
                         <div style={{ position: 'relative' }} className='centerxy'>
                             <div className='heading-text'>Starting your HR Interview...</div>
@@ -44,10 +44,11 @@ const AfterLoginPage = () => {
                             <Link to={allPaths._questionsPagePath} style={{ padding: '0px' }}><a href="" className='button-global-style'>
                                 Start Your HR Interview
                             </a></Link>
+                            <div className='very-small-separation'></div>
                         </div>
                     </Col>
                     <Col md={6} sm={12}>
-                        <img src={interview3} />
+                        <img src={interview3} className='image-size' />
                     </Col>
                 </Row>
                 <div className='small-separation'></div>

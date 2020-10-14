@@ -5,15 +5,15 @@ import results from '../../results.json';
 const BarGroup = (props) => {
     let barPadding = 10;
     let barColour = '#32C766';
-    let widthScale = d => d * 10;
+    let widthScale = d => d * 3;
 
     let width = widthScale(props.d.value);
     let yMid = props.barHeight * 0.5;
 
     return (
         <g className="bar-group">
-            <text className="name-label" x="-150" y={yMid} alignmentBaseline='middle' >{props.d.name}</text> <span className='horizontal-space'></span>
-            {width != 0 ? (<rect y={barPadding * 0.5} width='1000' height={props.barHeight - barPadding} fill='#393939' />) :
+            <text className="name-label" x="-140" y={yMid} alignmentBaseline='middle' >{props.d.name}</text> <span className='horizontal-space'></span>
+            {width != 0 ? (<rect y={barPadding * 0.5} width='300' height={props.barHeight - barPadding} fill='#393939' />) :
                 (<rect y={barPadding * 0.5} width='0' height={props.barHeight - barPadding} fill='#333fff' />)}
             <rect y={barPadding * 0.5} width={width} height={props.barHeight - barPadding} fill={barColour} />
             <text className="value-label" x={width - 10} y={yMid} alignmentBaseline='middle' >{props.d.value}</text>
@@ -26,7 +26,7 @@ class BarChart extends React.Component {
     }
 
     render() {
-        let barHeight = 50;
+        let barHeight = 40;
 
         this.state.data.push({ name: 'Concentration', value: results.Concentration.toFixed(2) });
         this.state.data.push({ name: 'Clarity', value: results.Clarity.toFixed(2) });

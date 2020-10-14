@@ -14,16 +14,15 @@ const ResultsPage = () => {
         <div>
             <NavBar number={0} />
             <Container>
-                <div className='small-separation'></div>
                 <Row>
                     <div className='heading-text'>Here are your results based on our calculation! (out of 100)</div>
                     <BarChart />
-                    <h2 style={{ color: '#32C766', fontFamily: 'Montserrat-Medium' }}>Remarks</h2>
+                    <div className='heading-text'>Remarks</div>
                     <p style={{ fontFamily: 'Montserrat-Medium' }}>Hmmm.. That’s awesome!
                     You’re either a great candidate, or you have improved significantly.
                     There’s always a long way to go however. All the best!
                     </p>
-                    <Col><img style={{ display: 'block', margin: 'auto' }} src={goodjob} /></Col>
+                    <Col><img style={{ display: 'block', margin: 'auto' }} src={goodjob} className='image-size' /></Col>
                 </Row>
                 <div className='small-separation'></div>
                 <Row>
