@@ -46,7 +46,7 @@ In the era of Covid-19 where million of people are in desparate need of jobs, th
 
 [//]: #![screenshot](./app_screenshot.png)
 
-## Getting Started
+## Getting Started 🏁
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing
 purposes.
