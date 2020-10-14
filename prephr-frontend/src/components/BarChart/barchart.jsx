@@ -1,5 +1,6 @@
 import React from 'react';
 import './barchart.css';
+import results from '../../results.json';
 
 const BarGroup = (props) => {
     let barPadding = 10;
@@ -21,25 +22,20 @@ const BarGroup = (props) => {
 
 class BarChart extends React.Component {
     state = {
-        data: [
-            { name: 'Concentration', value: 80 },
-            { name: 'Clarity', value: 40 },
-            { name: 'Expression', value: 35 },
-            { name: 'Posture', value: 60 },
-            { name: 'Focus', value: 55 },
-            { name: 'Understanding', value: 40 },
-        ]
+        data: []
     }
 
     render() {
-        let barHeight = 50
-        let overall = 0;
-        this.state.data.forEach(element => {
-            overall += element.value;
-        });
-        overall = overall / this.state.data.length;
+        let barHeight = 50;
+
+        this.state.data.push({ name: 'Concentration', value: results.Concentration.toFixed(2) });
+        this.state.data.push({ name: 'Clarity', value: results.Clarity.toFixed(2) });
+        this.state.data.push({ name: 'Expression', value: results.Expression.toFixed(2) });
+        this.state.data.push({ name: 'Focus', value: results.Focus.toFixed(2) });
+        this.state.data.push({ name: 'Understanding', value: results.Understanding.toFixed(2) });
+        this.state.data.push({ name: 'Eye_Contact', value: results.Eye_Contact.toFixed(2) });
         this.state.data.push({ name: '', value: 0 });
-        this.state.data.push({ name: 'Overall', value: overall.toFixed(2) });
+        this.state.data.push({ name: 'Overall', value: results.Overall.toFixed(2) });
 
         let barGroups = this.state.data.map((d, i) => <g transform={`translate(0, ${i * barHeight})`}>
             <BarGroup d={d} barHeight={barHeight} />
