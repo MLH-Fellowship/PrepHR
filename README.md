@@ -14,6 +14,14 @@
 <img src="https://img.shields.io/github/license/MLH-Fellowship/PrepHR">
 <img src="https://img.shields.io/github/contributors/MLH-Fellowship/PrepHR"></p>
 
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+
+
 ## What is PrepHR? 📝
 An open source project to help students prepare for virtual pre-recorded interview.
 
@@ -66,7 +74,7 @@ To get a local copy up and running follow these simple example steps.
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/https://github.com/ridhambhat/"><img src="https://media-exp1.licdn.com/dms/image/C5103AQH2KZ71kAWO5w/profile-displayphoto-shrink_400_400/0?e=1607558400&v=beta&t=5Ayv0VgKxISCLwUyJkHQM2q0Ew_z6qX9rUNTHBn9Tzo" width="100px;" alt="" style="border-radius:50%;" /><br /><sub><b>Ridham Bhat</b></sub></a><br /><a href="https://github.com/MLH-Fellowship/PrepHR/commits?author=ridhambhat" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ridhambhat/"><img src="https://media-exp1.licdn.com/dms/image/C5103AQH2KZ71kAWO5w/profile-displayphoto-shrink_400_400/0?e=1607558400&v=beta&t=5Ayv0VgKxISCLwUyJkHQM2q0Ew_z6qX9rUNTHBn9Tzo" width="100px;" alt="" style="border-radius:50%;" /><br /><sub><b>Ridham Bhat</b></sub></a><br /><a href="https://github.com/MLH-Fellowship/PrepHR/commits?author=ridhambhat" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Imperial-lord/"><img src="https://media-exp1.licdn.com/dms/image/C5103AQENV10AF40TIQ/profile-displayphoto-shrink_400_400/0?e=1607558400&v=beta&t=6qa0pA5UVDvTO21RpAqQ65UhjqqBwu7l1JwzVoVzoeU" width="100px;" alt="" style="border-radius:50%;" /><br /><sub><b>AB Satyaprakash</b></sub></a><br /><a href="https://github.com/MLH-Fellowship/PrepHR/commits?author=Imperial-lord" title="Code">💻</a> <a href="https://www.figma.com/file/2UivqSl9HnkscnGExh5chx/PrepHR/" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Sakshi16/"><img src="https://media-exp1.licdn.com/dms/image/C5103AQFwmdMY58eMoQ/profile-displayphoto-shrink_400_400/0?e=1607558400&v=beta&t=vjROysRtZ6UbyUb7BRq6HhpN1megkbUpJEQKa1EYyJ0" width="100px;" alt="" style="border-radius:50%;" /><br /><sub><b>Sakshi Rambhia</b></sub></a><br /><a href="https://github.com/MLH-Fellowship/PrepHR/commits?author=Sakshi16" title="Code">💻</a></td>
   </tr>
