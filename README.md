@@ -89,6 +89,11 @@ To get a local copy up and running follow these simple example steps.
 ## Contribute 🤝
 All kinds of contributions, issues, and feature requests are welcome!
 
+## Code of Conduct
+* Be considerate, respectful and collaborative.
+* Refrain from demeaning, discriminatory or harassing behavior and speech.
+* Be mindful of your surroundings and of your fellow participants. Your fellow participants may have a different level of comfort with respect to language and personal space.
+
 ## Show your support ⭐️
 Give it a *star* if you like this project!
 
