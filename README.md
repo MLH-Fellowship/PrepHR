@@ -40,8 +40,9 @@ In the era of Covid-19 where million of people are in desparate need of jobs, th
 
 ## Tech Stack 🛠
 
-- ReactJS
-- Django, MongoDB
+- [ReactJS](https://reactjs.org/)
+- [Django](https://www.djangoproject.com/)
+- [MongoDB](https://www.mongodb.com/)
 
 <!--## Live Demo
 We'll make a setup_instructions.md later on!
