@@ -3,7 +3,7 @@
 <p align="center">
 <img src="https://github.com/MLH-Fellowship/PrepHR/blob/main/prephr-frontend/src/assets/icons/logo.svg" alt="logo" ></p>
 <p align="center">
-<a href="https://reactjs.org/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react" width="70" height="70"/> </a> <a href="https://www.djangoproject.com/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/django/django-original.svg" alt="django" width="70" height="70"/> </a> <a href="https://www.mongodb.com/" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="70" height="70"/> </a></p> 
+<a href="https://reactjs.org/" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" alt="react" width="70" height="70"/> </a> <a href="https://www.djangoproject.com/" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-original.svg" alt="django" width="70" height="70"/> </a> <a href="https://www.mongodb.com/" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="70" height="70"/> </a></p> 
 <h3 align="center"> Where preparation meets expectations.</h3>
 <p align="center">
 <img src="https://github.com/MLH-Fellowship/PrepHR/blob/main/prephr-frontend/public/Screenshot%20from%202020-10-14%2001-01-33.png" alt="screenshot"> </p>
